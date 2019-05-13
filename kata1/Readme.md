@@ -40,7 +40,13 @@ The goal is to have the plan in steps so that all make it safely to the other si
 
 # Instructions
 
-- Command `make` will print program output to `stdout`.
+- Command `make` will print program output to `stdout`. Output should look like this:
+```
+Mac-Book-Pro:mymac ~ $ make
+[[[:fox :goose :corn :you] [:boat] []]
+...
+[[[] [:boat] [:fox :goose :corn :you]]]]
+```
 - There are no language limitations. If you're using something exotic, define 
 command `make install` to install all needed dependencies not available on Mac OS 
 by default.  
