@@ -50,3 +50,5 @@ Mac-Book-Pro:mymac ~ $ make
 - There are no language limitations. If you're using something exotic, define 
 command `make install` to install all needed dependencies not available on Mac OS 
 by default.  
+- This is programming exercise and solution with simple `print()` statements will not 
+be accepted as valid solution.
