@@ -40,9 +40,9 @@ Cílem je naplánovat kroky tak, ať se všichni bezpečně dostanou na opačnou
 - Příkaz `make run` vytiskne výstup na `stdout` (standardní výstup). Výstup by měl vypadat zhruba takto:
 ```
 Mac-Book-Pro:mymac ~ $ make
-[[[:fox :goose :corn :you] [:boat] []]
+[[[:liska :husa :zrni :ja] [:clun] []]
 ...
-[[[] [:boat] [:fox :goose :corn :you]]]]
+[[[] [:clun] [:liska :husa :zrni :ja]]]]
 ```
 
 - Nejsou zde žádné limitace na programovací jazyk. Pokud používáš něco exotického, přidej Makefile příkaz `make install` na instalaci všech potřebných závislostí, které nejsou v základu na Mac OS dostupné.
