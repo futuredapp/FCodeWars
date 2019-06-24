@@ -30,10 +30,12 @@ Ale v tom případě liška sežere husu!
 Cílem je naplánovat kroky tak, ať se všichni bezpečně dostanou na opačnou stranu
 
 ```
-[[[:liska :husa :zrni :ja] [:clun] []]
+[[[:liska :husa :zrni :ja] [:clun] []] // počáteční stav
 ...
-[[[] [:clun] [:liska :husa :zrni :ja]]]]
+[[[] [:clun] [:liska :husa :zrni :ja]]]] // cílový stav
 ```
+
+Počet ani jména položek se během testování nebudou dynamicky měnit. Vždy se bude pracovat pouze s `:ja`, `:liska`, `:husa`, `:zrni`, `:clun`.
 
 # Instrukce
 
