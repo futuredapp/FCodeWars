@@ -1,54 +1,49 @@
-# fox-goose-bag-of-corn
+# liška-husa-pytel-se-zrním
 
-One of Lewis Carroll's favorite puzzles to ask children was the one
-about the _Fox, Goose, and Bag of Corn_.  It has to do with getting
-them all safely across a river.
+Jde o jednu z oblíbených hádánek Lewise Carolla. Hříčka se točí kolem lišky, husy a pytle zrní. Vše spočívá v tom, dostat je bezpečně na druhý konec řeky.
 
-# Rules
+# Pravidla
 
-The rules for this puzzle are:
+Pravidla této úlohy jsou:
 
-- You must get the fox, goose, and bag of corn safely across the other side of the river
-- You can only carry 1 item on the boat across with you.
-- The fox cannot be left alone with the goose, (or it will be eaten).
-- The goose cannot be left alone with the corn, (or it will be eaten).
+- Musíte dostat lišku, husu a zrní bezpečně na druhý břeh řeky
+- V jednu chvíli můžete mít s sebou na člunu pouze jednu položku
+- Liška nesmí zůstat sama na břehu s husou, (protože tento stav by pro husu neměl dlouhého trvání)
+- Husa nesmí zůstat na břehu sama se zrním, (protože by to pro změnu nedopadlo úplně dobře pro zrní)
 
-The data structure to represent this puzzle is a vector of vectors.
+Datová struktura reprezentující řešení je vektor vektorů.
 
-The starting position is you, the fox, the goose, and corn on one side of the river. The boat is empty. The other river bank is empty.
+Začínáme ve stavu, kdy jsou všechny předměty na levé straně řeky. Člun je prázdný, druhý břeh řeky taktéž.
 
 ```clojure
-[[[:fox :goose :corn :you] [:boat] []]]
+[[[:liska :husa :zrni :ja] [:clun] []]]
 ```
-
-You could take the corn on the boat with you
+Můžeš s sebou vzít kupříkladu zrní
 
 ```clojure
-[[[:fox :goose :corn :you] [:boat] []]
-[[:fox :goose] [:boat :corn :you] []]]
+[[[:liska :husa :zrni :ja] [:clun] []]
+[[:liska :husa] [:clun :zrni :ja] []]]
 ```
 
-But then the fox would eat the goose!
+Ale v tom případě liška sežere husu!
 
-The goal is to have the plan in steps so that all make it safely to the other side
+Cílem je naplánovat kroky tak, ať se všichni bezpečně dostanou na opačnou stranu
 
 ```
-[[[:fox :goose :corn :you] [:boat] []]
+[[[:liska :husa :zrni :ja] [:clun] []]
 ...
-[[[] [:boat] [:fox :goose :corn :you]]]]
+[[[] [:clun] [:liska :husa :zrni :ja]]]]
 ```
 
-# Instructions
+# Instrukce
 
-- Command `make` will print program output to `stdout`. Output should look like this:
+- Příkaz `make run` vytiskne výstup na `stdout` (standardní výstup). Výstup by měl vypadat zhruba takto:
 ```
 Mac-Book-Pro:mymac ~ $ make
 [[[:fox :goose :corn :you] [:boat] []]
 ...
 [[[] [:boat] [:fox :goose :corn :you]]]]
 ```
-- There are no language limitations. If you're using something exotic, define 
-command `make install` to install all needed dependencies not available on Mac OS 
-by default.  
-- This is programming exercise and solution with simple `print()` statements will not 
-be accepted as valid solution.
+
+- Nejsou zde žádné limitace na programovací jazyk. Pokud používáš něco exotického, přidej Makefile příkaz `make install` na instalaci všech potřebných závislostí, které nejsou v základu na Mac OS dostupné.
+- Jde o programovací úlohu a řešení s prostými `print()` výrazy nebude považováno jako validní a akceptovatelné řešení.
