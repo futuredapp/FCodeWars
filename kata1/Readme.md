@@ -16,13 +16,13 @@ Datová struktura reprezentující řešení je vektor vektorů.
 Začínáme ve stavu, kdy jsou všechny předměty na levé straně řeky. Člun je prázdný, druhý břeh řeky taktéž.
 
 ```clojure
-[[[:liska :husa :zrni :ja] [:clun] []]]
+[[:liska :husa :zrni :ja] [:clun] []]
 ```
 Můžeš s sebou vzít kupříkladu zrní
 
 ```clojure
-[[[:liska :husa :zrni :ja] [:clun] []]
-[[:liska :husa] [:clun :zrni :ja] []]]
+[[:liska :husa :zrni :ja] [:clun] []]
+[[:liska :husa] [:clun :zrni :ja] []]
 ```
 
 Ale v tom případě liška sežere husu!
@@ -30,9 +30,9 @@ Ale v tom případě liška sežere husu!
 Cílem je naplánovat kroky tak, ať se všichni bezpečně dostanou na opačnou stranu
 
 ```
-[[[:liska :husa :zrni :ja] [:clun] []] // počáteční stav
+[[:liska :husa :zrni :ja] [:clun] []] // počáteční stav
 ...
-[[[] [:clun] [:liska :husa :zrni :ja]]]] // cílový stav
+[[] [:clun] [:liska :husa :zrni :ja]] // cílový stav
 ```
 
 Počet ani jména položek se během testování nebudou dynamicky měnit. Vždy se bude pracovat pouze s `:ja`, `:liska`, `:husa`, `:zrni`, `:clun`.
@@ -42,9 +42,9 @@ Počet ani jména položek se během testování nebudou dynamicky měnit. Vždy
 - Příkaz `make run` vytiskne výstup na `stdout` (standardní výstup). Výstup by měl vypadat zhruba takto:
 ```
 Mac-Book-Pro:mymac ~ $ make
-[[[:liska :husa :zrni :ja] [:clun] []]
+[[:liska :husa :zrni :ja] [:clun] []]
 ...
-[[[] [:clun] [:liska :husa :zrni :ja]]]]
+[[] [:clun] [:liska :husa :zrni :ja]]
 ```
 
 - Nejsou zde žádné limitace na programovací jazyk. Pokud používáš něco exotického, přidej Makefile příkaz `make install` na instalaci všech potřebných závislostí, které nejsou v základu na Mac OS dostupné.
