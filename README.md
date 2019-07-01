@@ -18,7 +18,7 @@ Tato hra je založena na principu řešení programátorských úloh Kata.
 
 ## Aktuální kata
 
-### 1. 7. 2019 - Otevřete bránym, `kata2` je tu - [#tajemné-číslo](https://github.com/skywall/FCodeWars/tree/master/kata2)
+### 1. 7. 2019 - Otevřete brány, `kata2` je tu - [#tajemné-číslo](https://github.com/skywall/FCodeWars/tree/master/kata2)
 - zadání naleznete ve složce s projektem
 - nejzazší termín odevzdání je 7. 7. 2019 - 23:59:59
 
