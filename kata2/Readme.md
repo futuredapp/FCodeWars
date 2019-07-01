@@ -12,6 +12,8 @@ Při řešení této úlohy __**NESMÍ**__ být použity tyto programovací jazy
 - Objective C, Swift
 - PHP, Ruby
 
+Pří řešení této úlohy je zakázáno použít klíčové slovo `if`.
+
 # Instrukce
 
 Přidejte `Makefile` s následujícími příkazy:
