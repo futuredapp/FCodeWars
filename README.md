@@ -30,5 +30,5 @@ Tato hra je založena na principu řešení programátorských úloh Kata.
 - **Uzavřeno**
 
 Vypracování:
-- Jakub Marek - https://github.com/jmarek41/liska-husa-pytel-se-zrnim (swift)
-- Lukáš Sztefel - https://github.com/skywall/kata1 (kotlin)
+- Jakub Marek - https://github.com/jmarek41/liska-husa-pytel-se-zrnim (Swift)
+- Lukáš Sztefek - https://github.com/skywall/kata1 (Kotlin)
