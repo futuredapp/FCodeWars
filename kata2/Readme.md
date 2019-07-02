@@ -25,3 +25,4 @@ Přidejte `Makefile` s následujícími příkazy:
 Mac-Book-Pro:mymac ~ $ make run
 543456
 ```
+(Dané číslo pouze ilustruje formát výstupu. Nejedná se o správný výsledek úlohy.)
