@@ -65,4 +65,4 @@ Generation: 3
 
 ```
 
-V adresáři `/zygotes` se nachází příklady počátků různých životů.
+V adresáři `/zygotes` se nachází příklady počátků různých životů. Ne vždy se mřížka obsahuje 4x8 buňek.
