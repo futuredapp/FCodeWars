@@ -33,8 +33,8 @@ Tato hra je založena na principu řešení programátorských úloh Kata.
 
 Vypracování:
 - Radim Vaculík - https://github.com/radimvaculik/kata2 (C/C++)
-- Adam Bezák - https://github.com/bezoadam/2_tajne_cislo (Python)
-- Jakub Marek - https://github.com/jmarek41/tajemne-cislo (Haskell)
+- Adam Bezák - https://github.com/bezoadam/2_tajne_cislo (Haskell)
+- Jakub Marek - https://github.com/jmarek41/tajemne-cislo (Python)
 - Lukáš Sztefek - https://github.com/skywall/kata2 (Haskell)
 
 Neoficiální rychlostní soutěž:
