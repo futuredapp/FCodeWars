@@ -14,15 +14,34 @@ Tato hra je založena na principu řešení programátorských úloh Kata.
 
 | Pořadí |     Jméno    | Počet bodů |
 | ------ | ------------ | ---------- |
-| 1.     | Jakub Marek  |         10 |
+| 1.     | Jakub Marek  |         10+10 |
+| 2.     | Adam Bezák   |          9 |
+| 3.     | Radim Vaculík  |          8 |
 
 ## Aktuální kata
+
+### 9. 7. 2019 - Cíl je na obzoru, poslední `kata3` je tu - [#daruj-zivot](https://github.com/skywall/FCodeWars/tree/master/kata3)
+- zadání naleznete ve složce s projektem
+- nejzazší termín odevzdání je 14. 7. 2019 - 23:59:59
+
+## Proběhlé katy
 
 ### 1. 7. 2019 - Otevřete brány, `kata2` je tu - [#tajemné-číslo](https://github.com/skywall/FCodeWars/tree/master/kata2)
 - zadání naleznete ve složce s projektem
 - nejzazší termín odevzdání je 7. 7. 2019 - 23:59:59
+- **Uzavřeno**
 
-## Proběhlé katy
+Vypracování:
+- Radim Vaculík - https://github.com/radimvaculik/kata2 (C/C++)
+- Adam Bezák - https://github.com/bezoadam/2_tajne_cislo (Python)
+- Jakub Marek - https://github.com/jmarek41/tajemne-cislo (Haskell)
+- Lukáš Sztefek - https://github.com/skywall/kata2 (Haskell)
+
+Neoficiální rychlostní soutěž:
+1. Adam Bezák - `0.078s`
+1. Lukáš Sztefek - `0.078s`
+3. Radim Vaculík - `0.708s` (s přidanou optimalizací kódu -O2 `0.617s`)
+4. Jakub Marek - `0.916s`
 
 ### 24. 6. 2019 - Začínáme s `kata1` - [#liška-husa-pytel-se-zrním](https://github.com/skywall/FCodeWars/tree/master/kata1)
 - zadání naleznete ve složce s projektem
