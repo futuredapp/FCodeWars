@@ -14,9 +14,9 @@ Tato hra je založena na principu řešení programátorských úloh Kata.
 
 | Pořadí |     Jméno     |1. kata|2. kata|3. kata| Celkem bodů |
 | ------ | ------------- |-------|-------|-------| ---------- |
-| **1.**     | Jakub Marek   |10|10|8|      28 |
-| **2.**     | Radim Vaculík |-|8|10|          18 |
-| **3.**     | Adam Bezák    |-|9|7|          16 |
+| **1.**     | **Jakub Marek**   |10|10|8|      28 |
+| **2.**     | **Radim Vaculík** |-|8|10|          18 |
+| **3.**     | **Adam Bezák**    |-|9|7|          16 |
 | 4.     | Matej Semančík    |-|-|9|          9 |
 | 5.     | Radek Doležal    |-|-|6|          6 |
 
