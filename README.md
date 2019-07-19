@@ -12,19 +12,29 @@ Tato hra je založena na principu řešení programátorských úloh Kata.
 
 ## Leaderboard
 
-| Pořadí |     Jméno    | Počet bodů |
-| ------ | ------------ | ---------- |
-| 1.     | Jakub Marek  |         10+10 |
-| 2.     | Adam Bezák   |          9 |
-| 3.     | Radim Vaculík  |          8 |
+| Pořadí |     Jméno     |1. kata|2. kata|3. kata| Celkem bodů |
+| ------ | ------------- |-------|-------|-------| ---------- |
+| **1.**     | Jakub Marek   |10|10|8|      28 |
+| **2.**     | Radim Vaculík |-|8|10|          18 |
+| **3.**     | Adam Bezák    |-|9|7|          16 |
+| 4.     | Matej Semančík    |-|-|9|          9 |
+| 5.     | Radek Doležal    |-|-|6|          6 |
 
-## Aktuální kata
+Vítězům gratulujeme!
+
+## Proběhlé katy
 
 ### 9. 7. 2019 - Cíl je na obzoru, poslední `kata3` je tu - [#daruj-zivot](https://github.com/skywall/FCodeWars/tree/master/kata3)
 - zadání naleznete ve složce s projektem
 - nejzazší termín odevzdání je 14. 7. 2019 - 23:59:59
+- **Uzavřeno**
 
-## Proběhlé katy
+Vypracování:
+- Radim Vaculík - https://github.com/radimvaculik/kata3 (PHP)
+- Adam Bezák - https://github.com/bezoadam/3_game_of_life (Python)
+- Jakub Marek - https://github.com/jmarek41/daruj-zivot (Swift)
+- Radek Doležal - https://github.com/eRDe33/game_of_life (Swift)
+- Matej Semančík - https://github.com/matejsemancik/kata3 (Kotlin)
 
 ### 1. 7. 2019 - Otevřete brány, `kata2` je tu - [#tajemné-číslo](https://github.com/skywall/FCodeWars/tree/master/kata2)
 - zadání naleznete ve složce s projektem
